@@ -10,7 +10,7 @@ DAO::DAO()
 {
    this->server = "127.0.0.1";
    this->usuario = "root";
-   this->senha = "root";
+   this->senha = "";
    this->db = "dbSlash";
    mysql_init(&DBCon);
 }
