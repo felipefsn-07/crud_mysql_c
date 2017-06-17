@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1497671193 source:/home/felipe/Área de Trabalho/Banco/exemplo/main.cpp
+	<iostream>
+	<string>
+	"UsuarioDAO.h"
+	"Usuario.h"
+
+1497667976 /home/felipe/Área de Trabalho/Banco/exemplo/UsuarioDAO.h
+	"Usuario.h"
+
+1496752404 /home/felipe/Área de Trabalho/Banco/exemplo/Usuario.h
+	<string>
+
+1496751977 source:/home/felipe/Área de Trabalho/Banco/exemplo/Usuario.cpp
+	"Usuario.h"
+	<string>
+
+1497668145 source:/home/felipe/Área de Trabalho/Banco/exemplo/UsuarioDAO.cpp
+	"UsuarioDAO.h"
+	"Usuario.h"
+	"DAO.h"
+	<iostream>
+
+1497669058 /home/felipe/Área de Trabalho/Banco/exemplo/DAO.h
+	<sstream>
+	<string>
+	<mysql/mysql.h>
+
+1497671117 source:/home/felipe/Área de Trabalho/Banco/exemplo/DAO.cpp
+	"DAO.h"
+	<string>
+	<mysql/mysql.h>
+	<sstream>
+	<iostream>
+
