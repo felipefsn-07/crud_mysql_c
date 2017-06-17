@@ -4,6 +4,6 @@ Esse repositório possui uma Classe DAO(data acces object) responsável por real
 1- Para instalar o mysql no ubuntu: 
   http://cursosdeprogramacao.com.br/blog/instalando-o-mysql-server-e-mysql-workbench-ubuntu/
   
-2- Depois digite sudo apt-get install libmysqlclient-dev para o funcionamento do mysql no codeblocks
+2- Depois digote no terminal "sudo apt-get install libmysqlclient-dev" para o funcionamento do mysql no codeblocks
 
 3- No codeblocks vá em settings->compiler->Linker settings em "Other linker options" digite "-lmysqlclient"
