@@ -120,14 +120,13 @@ string *DAO::lerDados(string *colunas, string condicao, int tamanhoColuna, strin
         colQuery += colunas[i];
 
         if (tipo == "single"){
-
             query = "SELECT " + colQuery +" FROM "+table +" WHERE "+condicao;
-
         }else if(tipo == "all"){
-            if (condicao == "")
+            if (condicao == ""){
                 query = "SELECT " + colQuery+" FROM "+table;
-            else
-                query = "SELECT " + colQuery +" FROM "+table +" WHERE "+condicao;
+           } else{
+                query = "SELECT " + colQuery +" FROM "+table +" "+condicao;
+           }
         }
        // cout << query.c_str() << endl;
 
